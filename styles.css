@@ -1,0 +1,174 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* Navbar */
+.navbar {
+    background: #007bff;
+    color: white;
+    padding: 1rem 0;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: azure;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links li {
+    margin-left: 1rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-btn {
+    background:#044890;
+    color: #fafbfd;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+    background: #f8f9fa;
+}
+.hero-image {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+    height: 100%;           /* Ensure the container has a height for vertical alignment */
+}
+
+.hero-image img {
+    transform: rotate(0deg); /* Apply rotation */
+    transition: transform 0.3s ease; /* Smooth transition */
+    max-width: 100%; /* Ensure responsiveness */
+    height: auto;    /* Maintain aspect ratio */
+    display: block;  /* Avoid extra whitespace */
+}
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    margin-top: 1rem;
+}
+
+.cta-btn {
+    background: #007bff;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Features Section */
+.features {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.feature-item {
+    display: inline-block;
+    margin: 1rem;
+    text-align: center;
+}
+
+.feature-item i {
+    font-size: 2rem;
+    color: #007bff;
+}
+
+.feature-item h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+/* Gadgets Section */
+.gadgets {
+    padding: 3rem 0;
+    background: #f8f9fa;
+}
+
+.gadget-item {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.rent-btn {
+    background: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    max-width: 400px;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #007bff;
+    color: white;
+}
