@@ -61,5 +61,27 @@ QuickRent-Landing-Page/
 ├── script.js           # JavaScript for interactivity
 ├── gadgets.jpg         # Hero section image
 ├── README.md           # Project documentation
+```
+**Setup Instructions
+**
+1. Clone the repository:
+```
+https://github.com/RadhikaNA/Quickrent-landing-page.git
+```
+2. Navigate to the project directory:
+```
+cd quickrent-landing-page
+```
+3. Open the index.html file in a web browser:
+```
+open index.html
+```
 
+Future Enhancements
+
+Add user authentication for personalized gadget listings.
+
+Integrate a payment gateway for seamless transactions.
+
+Implement a real-time gadget availability checker.
 
