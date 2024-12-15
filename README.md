@@ -52,9 +52,14 @@ FontAwesome: For icons in the Features section.
 Flexbox: Used for layout and alignment.
 
 **Directory Structure**
-'''QuickRent-Landing-Page/
+```
+git clone https://github.com/your-username/quickrent-landing-page.git
+cd quickrent-landing-page
+QuickRent-Landing-Page/
 ├── index.html          # Main HTML file
 ├── styles.css          # CSS for styling
 ├── script.js           # JavaScript for interactivity
 ├── gadgets.jpg         # Hero section image
 ├── README.md           # Project documentation
+
+
