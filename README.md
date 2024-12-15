@@ -50,3 +50,11 @@ HTML5, CSS3, JavaScript: For the layout, styling, and interactivity.
 FontAwesome: For icons in the Features section.
 
 Flexbox: Used for layout and alignment.
+
+**Directory Structure**
+QuickRent-Landing-Page/
+├── index.html          # Main HTML file
+├── styles.css          # CSS for styling
+├── script.js           # JavaScript for interactivity
+├── gadgets.jpg         # Hero section image
+├── README.md           # Project documentation
